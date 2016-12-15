@@ -1,0 +1,30 @@
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[user]
+	name = zhangqin
+	email = zhangqin@xiaomi.com
+[alias]
+	lg = log --graph --pretty=oneline
+	lf = log --graph --pretty=oneline --pretty=format:'%h - %cn, %cr : %s'
+	br = branch
+	ck = checkout
+	cm = commit
+	st = status
+	last = log -1 HEAD
+	plm = pull origin master
+	plr = pull origin RELEASE
+	plt = pull origin testing
+	psm = push origin master
+	psr = push origin RELEASE
+	pst = push origin testing
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[mergetool]
+	keepBackup = false
+[url "micode@micode.be.xiaomi.com:"]
+	insteadOf = http://micode.be.xiaomi.com
