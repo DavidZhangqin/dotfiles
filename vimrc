@@ -12,7 +12,7 @@ call vundle#begin()
 
     Plugin 'fatih/vim-go'
     Plugin 'AndrewRadev/splitjoin.vim'
-    " Plugin 'SirVer/ultisnips'
+    Plugin 'SirVer/ultisnips'
     Plugin 'ctrlpvim/ctrlp.vim'
     Plugin 'majutsushi/tagbar'
 
