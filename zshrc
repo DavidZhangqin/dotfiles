@@ -96,4 +96,7 @@ export GOPATH=$HOME/GoSpace
 export PATH=$PATH:$GOPATH/bin
 
 #homebrew git token
-#export HOMEBREW_GITHUB_API_TOKEN="02283d81bd1010c9c3c41f1dd86555d84aedc746"
+export HOMEBREW_GITHUB_API_TOKEN="02283d81bd1010c9c3c41f1dd86555d84aedc746"
+
+#php
+export PATH=$(brew --prefix php53)/bin:$PATH
